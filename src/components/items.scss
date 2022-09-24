@@ -1,0 +1,18 @@
+.dropdownbutton{
+    background-color: rgb(210, 237, 255);
+
+}
+.dropdown{
+    ul{
+        width: max-content;
+        li{
+            padding:10px;
+            cursor: pointer;
+        }
+        li:hover{
+            padding:10px;
+            cursor: pointer;
+            background-color: lightgrey;
+        }
+    }
+}

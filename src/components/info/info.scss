@@ -1,0 +1,19 @@
+
+.info{
+    margin-inline-end: 40px;
+    display: flex;
+    flex-direction: row;
+    i{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    span{
+        color:rgb(110, 110, 110);
+        font-weight: bolder;
+    }
+    div{
+        margin-inline-start: 15px;
+    }
+}

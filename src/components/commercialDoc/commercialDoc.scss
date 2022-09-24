@@ -1,0 +1,62 @@
+.statusWrapper {
+    display: flex;
+}
+.inactive{
+    margin-inline-end: 10px;
+    background-color: lightgrey;
+    padding: 5px;
+    span{
+        color:grey
+    }
+}
+.active{
+    margin-inline-end: 10px;
+    background-color: rgb(226, 255, 226);
+    padding: 5px;
+    span{
+        color:rgb(7, 195, 7)
+    }
+}
+.mainWrapper{
+    border: solid 1px lightgray;
+    padding:15px;
+    margin-top: 30px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.infosWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.favouriteWrapper{
+    margin-left:10px;
+    width:45px;
+    height:45px;
+    text-align:center;
+    padding-top:11px;
+    cursor: pointer;
+    i {
+        font-size:20px;
+    }
+}
+.favourite{
+    background-color:blue;
+    i{
+        color:white
+    }
+    
+}
+.non-favourite{
+    background-color:rgb(210, 237, 255);
+    i{
+        color:blue
+    }
+
+}
+

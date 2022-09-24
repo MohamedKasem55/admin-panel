@@ -1,0 +1,28 @@
+.selectedTab{
+    cursor: pointer;
+    border : 1px solid lightgrey;
+    border-bottom: blue 5px solid;
+    border-radius: 5px;
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    span{
+        color: rgb(59, 59, 59);
+        font-weight: bold;
+        font-size: large;
+        margin: 10px;
+    }
+}
+
+.unSelectedTab{
+    cursor: pointer;
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    span{
+        font-weight: normal;
+        color: rgb(59, 59, 59);
+        font-size: large;
+        margin: 5px;
+    }
+}
